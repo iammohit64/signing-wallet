@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "ethers": "^6.15.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "name": "signing-wallet",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "This is a data dashboard project based on React, TypeScript, Vite, and Recharts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "npm install --prefix Frontend && npm install --prefix Backend/zerolag-auth-backend",
+    "dev": "concurrently \"npm run dev --prefix Frontend\" \"npm run dev --prefix Backend/zerolag-auth-backend\""
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
